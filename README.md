@@ -8,7 +8,7 @@ This repository contains a **Physics-Informed Neural Network (PINN)** implementa
 
 We consider the following 1D system:
 
-$
+$$
 \begin{cases}
 \partial_t \rho + \partial_x(\rho u) = 0, \\\\
 \partial_t(\rho u) + \partial_x(\rho u^2)
@@ -17,7 +17,7 @@ $
 = \rho f, \\\\
 \partial_t \rho^\* + u\,\partial_x \rho^\* = 0.
 \end{cases}
-$
+$$
 
 ### Variables and parameters
 
