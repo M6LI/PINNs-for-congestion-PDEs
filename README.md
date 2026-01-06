@@ -8,7 +8,7 @@ The aim is to explore and approximate solutions in regimes close to **hard conge
 ## PDE model
 
 We consider the following 1D system:
-\[
+$
 \begin{cases}
 \partial_t \rho + \partial_x(\rho u) = 0, \\\\
 \partial_t(\rho u) + \partial_x(\rho u^2)
@@ -17,7 +17,7 @@ We consider the following 1D system:
 = \rho f, \\\\
 \partial_t \rho^\* + u\,\partial_x \rho^\* = 0.
 \end{cases}
-\]
+$
 
 **Variables and parameters**
 - \(\rho(t,x)\): density  
