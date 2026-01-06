@@ -10,7 +10,7 @@ We consider the following 1D system:
 
 $$
 \begin{cases}
-\partial_t \rho + \partial_x(\rho u) = 0, \\\\
+\partial_t \rho + \partial_x(\rho u) = 0, \\
 \partial_t(\rho u) + \partial_x(\rho u^2)
 - \partial_x\!\left( \dfrac{\mu}{1-\rho}\,\partial_x u \right)
 + \partial_x\!\left( \left(\dfrac{\rho}{\rho^\*}\right)^\gamma \right)
