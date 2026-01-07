@@ -25,9 +25,9 @@ The model solved by the PINN is given by:
 
 
 ### Variables and parameters
-- $\rho(x,t)$ : density  
-- $u(x,t)$ : velocity  
-- $\rho^\*(x,t)$ : transported congestion threshold (capacity)  
+- $\rho(t,x)$ : density  
+- $u(t,x)$ : velocity  
+- $\rho^\*(t,x)$ : transported congestion threshold (capacity)  
 - $\mu > 0$ : viscosity parameter (singular as $\rho \to 1$)  
 - $\gamma > 0$ : congestion exponent  
 - $f$ : external forcing (constant in this code)
