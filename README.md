@@ -41,7 +41,7 @@ This system combines:
 
 The PINN is a fully connected multilayer perceptron (MLP):
 
-- **Input:** $(x,t)$  
+- **Input:** $(t,x)$  
 - **Output (raw):** $(\delta \rho,\ \delta u, \ \delta \rho^\*)$  
 - **Hidden layers:** configurable (default: 5 layers of width 256)  
 - **Activation:** `tanh` (configurable)
@@ -59,8 +59,7 @@ where $A(t)=t/T$ is a time-scheduling factor that ensures **exact satisfaction o
 
 ## Loss function
 
-The total loss is given by
-$\mathcal{L} = \mathcal{L}_{\text{PDE}}+ \mathcal{L}_{\text{IC}}+ \mathcal{L}_{\text{BC}}.$
+The total loss is given by $\mathcal{L} = \mathcal{L}_{\text{PDE}} + \mathcal{L}_{\text{IC}}+ \mathcal{L}_{\text{BC}}.$
 
 Here:
 - $\mathcal{L}_{\text{PDE}}$ enforces the three PDE equations,
