@@ -9,18 +9,22 @@ The implementation uses a **two-stage optimisation strategy (Adam → L-BFGS)** 
 ## PDE model
 
 The model solved by the PINN is the 1D system
-$$
-\begin{aligned}
-\begin{cases}
-\partial_t \rho + \partial_x(\rho u) = 0, \\
-\partial_t(\rho u) + \partial_x(\rho u^2)
-- \partial_x\!\left( \dfrac{\mu}{1-\rho}\,\partial_x u \right)
-+ \partial_x\!\left( \left(\dfrac{\rho}{\rho^\*}\right)^\gamma \right)
-= \rho f, \\
-\partial_t \rho^\* + u\,\partial_x \rho^\* = 0.
-\end{cases}
-\end{aligned}
-$$
+The PDE system is given by:
+
+- **Continuity equation**
+  
+  `∂_t ρ + ∂_x(ρ u) = 0`
+
+- **Momentum equation**
+  
+  `∂_t(ρ u) + ∂_x(ρ u²)
+   − ∂_x( (μ / (1 − ρ)) ∂_x u )
+   + ∂_x( (ρ / ρ*)^γ )
+   = ρ f`
+
+- **Transport of congestion threshold**
+  
+  `∂_t ρ* + u ∂_x ρ* = 0`
 
 
 
