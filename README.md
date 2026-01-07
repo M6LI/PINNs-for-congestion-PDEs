@@ -20,7 +20,7 @@ The model solved by the PINN is given by:
 
 - **Transport of congestion threshold**
   
-  $\partial_t \rho^\* + u\,\partial_x \rho^\* = 0.$
+  $\partial_t \rho^\* + u\partial_x \rho^\* = 0.$
 
 
 
