@@ -60,7 +60,7 @@ where $A(t)=t/T$ is a time-scheduling factor that ensures **exact satisfaction o
 ## Loss function
 
 The total loss is given by 
-$\mathcal{L} = \mathcal{L}_{\text{PDE}} + \mathcal{L}_{\text{IC}}+ \mathcal{L}_{\text{BC}}$.
+$L = L_{\text{PDE}} + L_{\text{IC}}+ L_{\text{BC}}$.
 
 Here:
 - $\mathcal{L}_{\text{PDE}}$ enforces the three PDE equations,
