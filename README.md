@@ -13,7 +13,7 @@ The PDE system is given by:
 
 - **Continuity equation**
   
-  `∂_t ρ + ∂_x(ρ u) = 0`
+  $\partial_t \rho + \partial_x(\rho u) = 0$
 
 - **Momentum equation**
   
